@@ -34,6 +34,9 @@
   <script src="<%- theme.in_cdn %>/js/main.js"></script>
   <script src="<%- theme.in_cdn %>/js/search.js"></script>
   <script src="<%- theme.in_cdn %>/js/initial.js"></script>
+  <% if(theme.pageview.busuanzi.enable) {%>
+    <script src="<%- theme.in_cdn %>/js/busuanzi.js"></script>
+  <% } %>
   <link rel="stylesheet" href="<%- theme.out_cdn.css.katex %>">
   <link rel="stylesheet" href="<%- theme.out_cdn.css.fontawesome %>">
   <link rel="stylesheet" href="<%- theme.out_cdn.css.highlight %>">

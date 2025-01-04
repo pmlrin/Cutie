@@ -118,12 +118,6 @@ comments:
 # 用于在顶栏添加浏览量查看。
 pageview: 
 
-  # waline 浏览量功能
-  # https://waline.js.org/
-  waline: # 参见https://waline.js.org/guide/features/pageview.html
-    enable: false
-    serverurl: 
-
   # 不蒜子 浏览量功能
   busuanzi: 
     enable: true
@@ -388,9 +382,10 @@ out_cdn:
     sketch: https://cdn.staticfile.org/sketch.js/1.0/sketch.min.js
     bootstrap: https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js
     aplayer: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js
+    meting_v1_2: https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js
     meting: https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js
     tocbot: https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.min.js
-    twikoo: https://cdn.staticfile.net/twikoo/1.6.38/twikoo.all.min.js
+    twikoo: https://cdn.staticfile.net/twikoo/1.6.40/twikoo.all.min.js
     waline_comment: https://unpkg.com/@waline/client@v3/dist/waline.js
     waline_pageview: https://unpkg.com/@waline/client@v3/dist/pageview.js
     busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js

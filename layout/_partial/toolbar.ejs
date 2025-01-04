@@ -116,15 +116,17 @@
       <div class="list-group-item"><div><i class="fa fa-font fa-fw"></i>
         <%- __('Info.words') %></div><div class="badge"><%- totalcount(site) %></span></div>
       </div>
-
-      <% if(theme.pageview.waline.enable){ %>
-        <div class="list-group-item">
-          <span><i class="fa fa-fw fa-user"></i>
-            <%- __('Info.Pageview_') %><div class="badge"><span i class="waline-pageview-count"/>
-          </span></div>
+      <% if(theme.pageview.busuanzi.enable) { %>
+        <div class="list-group-item"><div><i class="fa fa-book fa-fw"></i>
+          <% if(is_home()) { %>
+            <!--全站浏览量-->
+              <%- __('Info.site_view') %></div><div class="badge"><span id="busuanzi_value_site_pv"></span></div>
+          <% }else{ %>
+            <!--文章浏览量-->
+              <%- __('Info.post_view') %></div><div class="badge"><span id="busuanzi_value_page_pv"></span></div>
+          <% } %>
         </div>
       <% } %>
-      
     </div>
   </div><% } %>
 

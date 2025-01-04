@@ -68,6 +68,8 @@ Info:
   count: 文章数目
   update: 最近更新
   words: 本站字数
+  site_view: 全站浏览
+  post_view: 本文浏览
 
 Post_Toc: 文章目录
 
